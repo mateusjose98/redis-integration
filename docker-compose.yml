@@ -1,0 +1,7 @@
+version: '4.0'
+services:
+  redis:
+    image: redis:alpine
+    container_name: my_redis
+    ports:
+      - "6379:6379"
